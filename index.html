@@ -91,14 +91,14 @@
 
         <!--Banner Starts-->
         <div class="banner relative">
-            <div class="carousel w-full">
+            <div class="carousel w-full h-[250px] md:h-full rounded-lg">
                 <div id="slide1" class="carousel-item relative w-full">
-                    <div class="hero py-28 bg-gradient-to-b from-[#121212] to-[#12121290]">
+                    <div class="hero md:py-28 bg-gradient-to-b from-[#121212] to-[#12121290]">
                         <img class="object-cover w-full h-full absolute mix-blend-overlay" src="./images/banner1.png" />
                         <div class="hero-content text-center text-neutral-content">
                             <div class="max-w-md">
-                            <h1 class="mb-5 text-5xl font-bold text-white">Exotic tastes at your doorstep</h1>
-                            <p class="mb-5 text-white">We supply highly quality organic products</p>
+                            <h1 class="mb-5 text-3xl md:text-5xl font-bold text-white">Exotic tastes at your doorstep</h1>
+                            <p class="mb-5 text-xs md:text-normal text-white">We supply highly quality organic products</p>
                             <button class="btn bg-primary-orange border-none text-white">Shop Now</button>
                             </div>
                         </div>
@@ -109,12 +109,12 @@
                 </div>
                 </div> 
                 <div id="slide2" class="carousel-item relative w-full">
-                    <div class="hero py-28 bg-gradient-to-b from-[#121212] to-[#12121290]">
+                    <div class="hero md:py-28 bg-gradient-to-b from-[#121212] to-[#12121290]">
                         <img class="object-cover w-full h-full absolute mix-blend-overlay" src="./images/banner2.png" />
                         <div class="hero-content text-center text-neutral-content">
                             <div class="max-w-md">
-                            <h1 class="mb-5 text-5xl font-bold text-white">Exotic tastes at your doorstep</h1>
-                            <p class="mb-5 text-white">We supply highly quality organic products</p>
+                            <h1 class="mb-5 text-3xl md:text-5xl font-bold text-white">Exotic tastes at your doorstep</h1>
+                            <p class="mb-5 text-xs md:text-normal text-white">We supply highly quality organic products</p>
                             <button class="btn bg-primary-orange border-none text-white">Shop Now</button>
                             </div>
                         </div>
@@ -125,12 +125,12 @@
                 </div>
                 </div> 
                 <div id="slide3" class="carousel-item relative w-full">
-                    <div class="hero py-28 bg-gradient-to-b from-[#121212] to-[#12121290]">
+                    <div class="hero md:py-28 bg-gradient-to-b from-[#121212] to-[#12121290]">
                         <img class="object-cover w-full h-full absolute mix-blend-overlay" src="./images/banner3.png" />
                         <div class="hero-content text-center text-neutral-content">
                             <div class="max-w-md">
-                            <h1 class="mb-5 text-5xl font-bold text-white">Exotic tastes at your doorstep</h1>
-                            <p class="mb-5 text-white">We supply highly quality organic products</p>
+                            <h1 class="mb-5 text-3xl md:text-5xl font-bold text-white">Exotic tastes at your doorstep</h1>
+                            <p class="mb-5 text-xs md:text-normal text-white">We supply highly quality organic products</p>
                             <button class="btn bg-primary-orange border-none text-white">Shop Now</button>
                             </div>
                         </div>
@@ -141,12 +141,12 @@
                 </div>
                 </div> 
                 <div id="slide4" class="carousel-item relative w-full">
-                    <div class="hero py-28 bg-gradient-to-b from-[#121212] to-[#12121290]">
+                    <div class="hero md:py-28 bg-gradient-to-b from-[#121212] to-[#12121290]">
                         <img class="object-cover w-full h-full absolute mix-blend-overlay" src="./images/banner4.png" />
                         <div class="hero-content text-center text-neutral-content">
                             <div class="max-w-md">
-                            <h1 class="mb-5 text-5xl font-bold text-white">Exotic tastes at your doorstep</h1>
-                            <p class="mb-5 text-white">We supply highly quality organic products</p>
+                            <h1 class="mb-5 text-3xl md:text-5xl text-white">Exotic tastes at your doorstep</h1>
+                            <p class="mb-5 text-xs md:text-normal text-white">We supply highly quality organic products</p>
                             <button class="btn bg-primary-orange border-none text-white">Shop Now</button>
                             </div>
                         </div>
@@ -194,14 +194,14 @@
         <!--Banner Ends-->
     </header>
 
-    <main  class="md:container mx-auto">
+    <main  class="px-5 md:container mx-auto">
         
          <!--Deal Section Starts-->
         <section class="my-20">
-            <div class="flex justify-between items-center">
-                <div>
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="text-center md:text-left pb-5 md:pb-0">
                     <h2 class="text-title-black text-4xl font-extrabold mb-4">Deal of the Day</h2>
-                    <p class="text-desc-black">Find out the best deal in a day, running for a very short time.<br>Deal time ends soon!</p>
+                    <p class="text-desc-black md:w-2/3">Find out the best deal in a day, running for a very short time. Deal time ends soon!</p>
                 </div>
                 <div>
                     <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
@@ -257,6 +257,7 @@
                                 <input type="radio" name="rating-10" class="bg-primary-orange mask mask-star-2 mask-half-1" />
                                 <input type="radio" name="rating-10" class="bg-primary-orange mask mask-star-2 mask-half-2" />
                               </div>
+                          </div>
 
                             <!--Button 1-->
                             <button class="bg-none font-medium text-primary-orange" onclick="my_modal_1.showModal()">Details</button>
@@ -290,7 +291,6 @@
                                 </div>
                             </form>
                             </dialog>
-                          </div>
                         </div>
                       </div>
                       <!--Card 2-->
@@ -316,6 +316,7 @@
                                 <input type="radio" name="rating-10" class="bg-primary-orange mask mask-star-2 mask-half-1" />
                                 <input type="radio" name="rating-10" class="bg-primary-orange mask mask-star-2 mask-half-2" />
                               </div>
+                          </div>
                             <!--Button 2-->
                             <button class="bg-none font-medium text-primary-orange" onclick="my_modal_2.showModal()">Details</button>
                             <dialog id="my_modal_2" class="modal">
@@ -348,7 +349,6 @@
                                 </div>
                             </form>
                             </dialog>
-                          </div>
                         </div>
                       </div>
                       <!--Card 3-->
@@ -374,6 +374,7 @@
                                 <input type="radio" name="rating-10" class="bg-primary-orange mask mask-star-2 mask-half-1" />
                                 <input type="radio" name="rating-10" class="bg-primary-orange mask mask-star-2 mask-half-2" />
                               </div>
+                          </div>
                             <!--Button 3-->
                             <button class="bg-none font-medium text-primary-orange" onclick="my_modal_3.showModal()">Details</button>
                             <dialog id="my_modal_3" class="modal">
@@ -406,7 +407,6 @@
                                 </div>
                             </form>
                             </dialog>
-                          </div>
                         </div>
                       </div>
                       <!--Card 4-->
@@ -432,6 +432,7 @@
                                 <input type="radio" name="rating-10" class="bg-primary-orange mask mask-star-2 mask-half-1" />
                                 <input type="radio" name="rating-10" class="bg-primary-orange mask mask-star-2 mask-half-2" />
                               </div>
+                          </div>
                             <!--Button 4-->
                             <button class="bg-none font-medium text-primary-orange" onclick="my_modal_4.showModal()">Details</button>
                             <dialog id="my_modal_4" class="modal">
@@ -464,7 +465,6 @@
                                 </div>
                             </form>
                             </dialog>
-                          </div>
                         </div>
                     </div>                      
                 </div>
@@ -476,13 +476,16 @@
 
         <!--Team Section Starts-->
         <section>
-            <div class="hero min-w-min" style="background-image: url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg);">
-                <div class="hero-overlay bg-opacity-80"></div>
-                <div class="text-center text-neutral-content text-white bock pt-10">
-                  <div class="">
-                    <h1 class="mb-5 text-5xl font-bold text-white">Hello there</h1>
-                    <p class="mb-5 w-1/2 mx-auto text-white">Discover the vibrant personalities behind our fruity world! Meet our diverse team, passionate about delivering the juiciest delights with a smile!</p>
-                  </div> 
+            <div class="relative">
+                <div class="absolute rounded-lg inset-0 bg-black bg-opacity-75"></div>
+                <img class="absolute w-full h-full object-cover mix-blend-overlay" src="./images/banner1.png" alt="">
+                <div class="text-center text-neutral-content text-white pt-10">  
+                  <div class="grid grid-cols-1 items-center justify-center text-center">
+                        <div class="card space-y-3 my-8">
+                                <h2 class="card-title text-white block">Meet Our Team</h2>
+                                <p class="text-white w-2/3 mx-auto">Discover the vibrant personalities behind our fruity world! Meet our diverse team, passionate about delivering the juiciest delights with a smile!</p>
+                            </div>
+                        </div>           
                   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 pb-5">
                     <!--Teammate 1-->
                         <div class="card">
@@ -544,18 +547,36 @@
                                 </div>
                             </div>
                         </div>
-                    </div>                 
+                    </div>             
                 </div>
               </div>
-            
-                    
-            
         </section>
         <!--Team Section Ends-->
+
+        <!--Why Choose Us Section Starts-->
+        <section class="my-20">
+          <div class="space-y-3 text-center">
+            <h2 class="text-4xl font-extrabold">Why Choose Us?</h2>
+            <p class="text-desc-black w-2/3 mx-auto">We are the best in business, and we're not bragging. In the world of fruit, here's why you choose us!</p>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-3">
+            <div>
+              <div class="flex">
+                
+              </div>
+            </div>
+          </div>
+            
+
+        </section>
+        <!--Why Choose Us Section eNDS-->
     </main>
 
-    <footer>
+     <!--Footer Section Starts-->
+    <footer class="px-5 md:container mx-auto">
 
     </footer>
+     <!--Footer Section Ends-->
 </body>
 </html>
